@@ -84,7 +84,8 @@ typedef enum esp8266_connect_status {
 
 typedef enum esp8266_serial_port {
 	ESP8266_SOFTWARE_SERIAL,
-	ESP8266_HARDWARE_SERIAL
+	ESP8266_HARDWARE_SERIAL,
+	ESP8266_HARDWARE_SERIAL1 //Serial1  HWserial port for mcus that have that
 };
 
 typedef enum esp8266_socket_state {
